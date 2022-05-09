@@ -1,0 +1,21 @@
+{
+  "name": "SimpleAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cefas Garcia Pereira",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^28.1.0",
+    "superagent": "^7.1.3",
+    "supertest": "^6.2.3"
+  }
+}
